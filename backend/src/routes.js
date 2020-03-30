@@ -4,7 +4,7 @@ const routes = express.Router();
 /**
  * Controllers
  */
-const OngController = require('./controllers/OngControlle');
+const OngController = require('./controllers/OngController');
 routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.create);
 
